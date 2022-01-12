@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<report id="estate_report"
+            model="estate.property"
+            string="Property Estate"
+            name="state.report_property_offers"
+            report_type="qweb-pdf"/>
+
+<!--    <record id="action_report_estate_property" model="ir.actions.report">-->
+<!--        <field name="name">Estate Report</field>-->
+<!--        <field name="model">estate.property</field>-->
+<!--        <field name="report_type">qweb-pdf</field>-->
+<!--        <field name="report_name">estate_report_property_offers</field>-->
+<!--        <field name="report_file">estate_report_property_offers</field>-->
+<!--    </record>-->
+
+</odoo>
